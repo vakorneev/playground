@@ -32,7 +32,7 @@ for i in 0...15 {
 var j = 10
 while j <= 18 {
     j+=1
-    print("This is shit \(j)")
+    print("This is sweet \(j)")
 }
 
 let arrayOfStr:[String] = ["BMW","Ford","Nissan"]
