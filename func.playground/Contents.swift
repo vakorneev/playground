@@ -43,8 +43,8 @@ func calcMoneyIn(array: [Int]) -> Int {
     print(sum)
   }
 
-  for item in array {
-    sum += item
+  array.forEach {
+    sum += $0
   }
 
   sayMoney()
