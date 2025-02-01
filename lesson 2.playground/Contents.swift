@@ -9,9 +9,9 @@ print("Hello World")
 func ask(_ text: String) -> String {
   if text == "1" {
     return "hello"
+  } else {
 
     /// ojsndojnfsdojnsdfnj
-  } else {
     return "bye bye"
   }
 }
